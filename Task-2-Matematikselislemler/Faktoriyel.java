@@ -8,7 +8,7 @@ public class App {
         int s1=scanner.nextInt();
         int denemesayısı=1;
 
-        for(int i=2;i<=s1;i++)
+        for(int i=1;i<=s1;i++)
         {
             denemesayısı=denemesayısı*i;
         }
@@ -18,3 +18,4 @@ public class App {
         
     }
 }
+
