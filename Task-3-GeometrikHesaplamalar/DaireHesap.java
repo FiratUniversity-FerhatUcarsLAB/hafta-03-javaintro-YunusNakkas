@@ -5,14 +5,14 @@ public class App {
     {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Lütfen dairenin yarıçapını giriniz");
-        double s1=scanner.nextDouble();
+        double yarıcap=scanner.nextDouble();
         double pi=3.14159;
 
-        double alan=pi*s1*s1;
-        double çevre=2*pi*s1;
+        double alan=pi*yarıcap*yarıcap;
+        double çevre=2*pi*yarıcap;
         System.out.println("Dairenin alanı: "+ alan);
         System.out.println("Dairenin çevresi: "+ çevre);
-        System.out.println("Dairenin yarıçapı: "+ s1);
+        System.out.println("Dairenin yarıçapı: "+ yarıcap);
 
     }
 }
