@@ -5,11 +5,11 @@ public class App {
     {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Lütfen üçgenin tabanını giriniz");
-        double s1=scanner.nextDouble();
+        double taban=scanner.nextDouble();
         System.out.println("Lütfen üçgenin yüksekliğini giriniz");
-        double s2=scanner.nextDouble();
+        double yukseklık=scanner.nextDouble();
 
-        double alan=(s1*s2)/2;
+        double alan=(taban*yukseklık)/2;
 
         System.out.println("Üçgenin alanı: "+ alan);
 
