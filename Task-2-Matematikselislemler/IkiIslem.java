@@ -5,14 +5,15 @@ public class App {
     {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Lütfen payı  giriniz");
-        double s1=scanner.nextDouble();
+        double pay=scanner.nextDouble();
 
         System.out.println("Lütfen paydayı  giriniz");
-        double s2=scanner.nextDouble();
+        double payda=scanner.nextDouble();
 
-        double sonuc=s1/s2;
+        double sonuc=pay/payda;
 
         System.out.printf("%.4f/n", sonuc);
         
     }
 }
+
