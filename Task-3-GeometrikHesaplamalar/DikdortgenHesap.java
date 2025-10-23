@@ -5,12 +5,12 @@ public class App {
     {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Lütfen dikdörtgenin uzun kenarını giriniz");
-        double s1=scanner.nextDouble();
+        double ukenar=scanner.nextDouble();
         System.out.println("Lütfen dikdörtgenin kısa kenarını giriniz");
-        double s2=scanner.nextDouble();
+        double kkenar=scanner.nextDouble();
 
-        double alan=s1*s2;
-        double çevre=(s1+s2)*2;
+        double alan=ukenar*kkenar;
+        double çevre=(ukenar+kkenar)*2;
 
         System.out.println("Dikdörtgenin çevresi: "+ çevre);
         System.out.println("Dikdörtgenin alanı: "+ alan);
